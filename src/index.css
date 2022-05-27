@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import 'animate.css';
+.active{
+    background-color: #262626;
+}
+.mlmtext{
+    color: #F2F2F2;
+}
+.mlmbar{
+    background-color: #F25C05;
+}
+.pulse{
+    transition:all rubberBand .5s ease-in;
+}
+.ButtonColor{
+    background-color: gray !important;
+    color: white !important;
+}
+.text_color{
+    color: #bb882a;
+}
+.muiIcon{
+    font-size: 50px !important;
+    opacity: .8 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
